@@ -1,0 +1,27 @@
+{
+  "name": "currencyconvertors",
+  "version": "1.0.0",
+  "homepage": "https://SurajKhonde.github.io/currencyConvertor",
+  "description": "this is not simple currencyConvertor you want to know why? please read ",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/currencyConvertor/",
+    "deploy": "gh-pages -d dist",
+    "test": "jest"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "suraj",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  }
+}
